@@ -1,0 +1,44 @@
+:root{
+    --pink: #f61067;
+    --grey: #dce1e9;
+    --white: #FFFFFF;
+    --blue: #66c3ff;
+    --black: #252627;
+
+}
+
+* {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+}
+
+.main{
+    background-color: var(--grey);
+
+}
+
+.m-plus-rounded-1c-regular {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-self: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.main-content{
+
+    justify-self: start;
+    margin-left: 20px;
+    color: var(--black);
+    width: 80%;
+}
+
+.main-content h1 { 
+    
+}
