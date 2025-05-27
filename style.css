@@ -22,6 +22,86 @@
   font-style: normal;
 }
 
+body {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--black); 
+}
+
+
+.nav-container {
+  width: 100%;
+  background-color: var(--blue);
+
+}
+
+.navbanner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 90%;
+  max-width: 1720px;
+  margin: 0 auto;
+  position: relative;
+}
+
+#nav-logo {
+  display: flex;
+  align-items: center;
+  justify-self: start;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.logo-img {
+  height: 50px; /* Adjust based on your design */
+  width: auto;
+  display: block;
+}
+
+.nav-menu {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.nav-links{
+  color: white;
+  text-decoration: none;
+
+}
+
+.nav-links:hover{
+  color :var(--pink);
+  transition: all 0.2s ease-out;
+}
+
+.nav-links-btn{
+  background-color: var(--pink);
+  padding: 6px 16x;
+
+}
+
+.contact-btn {
+  background-color: var(--pink);
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #e50a5b;
+}
+
 .main-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -39,6 +119,25 @@
     width: 80%;
 }
 
-.main-content h1 { 
-    
+.main-content p {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.main-btn {
+  background-color: var(--blue);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.main-btn:hover {
+  background-color :var(--pink);
+  transition: all 0.2s ease-out;
 }
