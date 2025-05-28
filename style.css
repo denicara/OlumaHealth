@@ -150,3 +150,10 @@ body {
   background-color :var(--pink);
   transition: all 0.2s ease-out;
 }
+
+.contact-img-container img {
+    width: 400px;      /* Resize the image */
+    height: auto;      /* Keep aspect ratio */
+    display: block;
+    margin: 0 auto;    /* Center image horizontally */
+}
